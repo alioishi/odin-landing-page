@@ -1,0 +1,34 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.header-hero {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links, .hero-explanation, .hero-img {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-message {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
