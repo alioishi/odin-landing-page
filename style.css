@@ -4,7 +4,7 @@ body {
 
 .header-hero {
     background-color: #1F2937;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 header {
@@ -40,9 +40,18 @@ a:link, a:visited {
     color: #E5E7EB;
 }
 
+.hero {
+    display: flex;
+    padding: 100px 0;
+    align-items: center;
+}
+
 .hero-message {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
+.hero-text, .hero-img {
+    flex: 1 1 0;
+}
