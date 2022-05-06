@@ -77,3 +77,20 @@ a:link, a:visited {
     justify-content: center;
     align-items: center;
 }
+
+.media-container {
+    display: flex;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+}
+
+.media-img-container {
+    background-color: white;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
+    flex: 1;
+}
