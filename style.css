@@ -3,6 +3,15 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #3882F6;
+    padding: 8px 36px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 header, .hero, footer {
     background-color: #1F2937;
 }
@@ -23,7 +32,6 @@ a:link, a:visited {
     text-decoration: none;
     color: #E5E7EB;
 }
-
 
 .header-logo {
     font-size: 24px;
@@ -56,6 +64,10 @@ a:link, a:visited {
 
 .hero-text {
     flex: 1;
+}
+
+.hero-sign-up-button {
+    border: none;
 }
 
 .hero-img-container {
