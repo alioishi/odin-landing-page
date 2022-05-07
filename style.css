@@ -86,6 +86,7 @@ a:link, a:visited {
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
+    margin-bottom: 50px;
 }
 
 .media-container {
@@ -135,4 +136,36 @@ a:link, a:visited {
     color: #1F2937;
     font-weight: bolder;
     margin-right: 50px;
+}
+
+.bottom-sign-up {
+    margin: 100px 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-sign-up-container {
+    color: #F9FAF8;
+}
+
+.bottom-sign-up-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.botton-sign-up-message {
+    font-size: 18px;
+}
+
+.bottom-sign-up-button {
+    border-color: #F9FAF8;
+    border: solid;
+}
+
+footer {
+    text-align: center;
+    padding: 36px 0;
 }
