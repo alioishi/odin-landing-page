@@ -77,19 +77,22 @@ a:link, a:visited {
     align-items: center;
 }
 
+.information {
+    padding: 50px 300px 150px 300px;
+}
+
 .information-title {
     text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-    margin: 50px;
 }
 
 .media-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-bottom: 150px;
+    flex-wrap: wrap;
+    gap: 50px;   
 }
 
 .media {
