@@ -62,7 +62,7 @@ a:link, a:visited {
     color: #F9FAF8;
 }
 
-.hero-text {
+.hero-text, .hero-img-container {
     flex: 1;
 }
 
@@ -72,7 +72,6 @@ a:link, a:visited {
 
 .hero-img-container {
     background-color: grey;
-    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,4 +110,26 @@ a:link, a:visited {
 
 .media-text {
     text-align: center;
+    color: rgb(80, 79, 79);
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 300px 100px 300px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-right: 50px;
 }
